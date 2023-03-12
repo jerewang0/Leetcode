@@ -24,8 +24,7 @@ def isAnagram(s, t):
 def main():
     # Inputs and expected outputs
     inputs = (("anagram", "nagaram"), ("rat", "car"))
-    expected_output = [True, False]
-    print(inputs)
+    expected_output = (True, False)
     
     # Cycle through each input and print result of my function vs expected output
     for ind, input in enumerate(inputs):
